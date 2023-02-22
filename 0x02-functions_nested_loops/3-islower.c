@@ -9,7 +9,7 @@ int _islower(int c)
 {
 	int retval;
 
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 'a' && c <= 'z')
 	{
 		retval = 1;
 	}
