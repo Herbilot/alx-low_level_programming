@@ -2,7 +2,7 @@
 /** 
  * print_sign - print the sign of an giving int
  * 
- * Parameters: c (a value which the sign is return)
+ * @n: argument passed
  *
  * Return: 1 (if positive), 0 (if egal to 0), -1 (if negative)
  */
@@ -13,16 +13,20 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		retval = 1;
+		putchar('+');
+		return (retval);
 	}
 	else if (n == 0)
-	{
-		retval =0;
-		putchar('0' + 0);
+	{	
+		putchar('0'):
+		retval = 0;
+		return 
 	}
 	else
 	{
 		retval = -1;
+		putchar('-');
+		return (retval);
 	}
 
-	return (retval);
 }
