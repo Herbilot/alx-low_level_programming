@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<ctype.h>
 /**
- * islower - check whether a char is lower or not
+ * isalpha - check whether a char is alpha or not
  *
- * parmater: c  int
+ * c - int parameter
  *
  * Return: 0 (success)
  */
@@ -11,7 +11,7 @@ int _isalpha(int c)
 {
 	int retval;
 
-	if (c >= 'a' && c <= 'Z')
+	if (c >= 'A' && c <= 'z')
 	{
 		retval = 1;
 	}
