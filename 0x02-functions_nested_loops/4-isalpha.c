@@ -3,11 +3,11 @@
 /**
  * islower - check whether a char is lower or not
  *
- * parmater c - int
+ * parmater: c  int
  *
  * Return: 0 (success)
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	int retval;
 
