@@ -18,9 +18,9 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{	
-		putchar('0');
 		retval = 0;
-		return 
+		putchar('0');
+		return retval; 
 	}
 	else
 	{
@@ -28,6 +28,5 @@ int print_sign(int n)
 		putchar('-');
 		return (retval);
 	}
-	return (0);
 
 }
