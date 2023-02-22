@@ -7,16 +7,17 @@
  */
 int _islower(int c)
 {
+	int retval;
+
 	if (islower(c) == 2)
 	{
-		putchar('0' + 1);
-		putchar('\n');
+		retval = 1;
 	}
 	else
 	{
-		putchar('0' + 0);
-		putchar('\n');
+		retval = 0;
 	}
-	return (0);
+
+	return retval;
 }
 
