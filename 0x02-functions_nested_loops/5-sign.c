@@ -28,5 +28,6 @@ int print_sign(int n)
 		putchar('-');
 		return (retval);
 	}
+	return (0);
 
 }
