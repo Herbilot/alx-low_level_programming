@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include<ctype.h>
 /**
- * islower - check whether a char is lower or not
+ * _islower - check whether a char is lower or not
+ *
+ * @c: value passed
  *
  * Return: 0 (success)
  */
