@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<ctype.h>
 /**
- * isalpha - check whether a char is alpha or not
+ * _isalpha - check whether a char is alpha or not
  *
- * c - int parameter
+ * @c: value passed
  *
  * Return: 0 (success)
  */
