@@ -13,19 +13,19 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		retval = 1;
-		printf('+');
+		printf("+");
 		return (retval);
 	}
 	else if (n == 0)
 	{	
 		retval = 0;
-		printf('0');
+		printf("0");
 		return retval; 
 	}
 	else
 	{
 		retval = -1;
-		printf('-');
+		printf("-");
 		return (retval);
 	}
 
