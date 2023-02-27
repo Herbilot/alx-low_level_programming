@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - update a value the pointer points to to 98
  *
- * @*n: pointer passed as argument
+ * @n: pointer passed as argument
  *
  * Return: nothing
  */
