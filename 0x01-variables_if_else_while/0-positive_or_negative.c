@@ -1,14 +1,15 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-
-/*main Entry Point 
- * 
- * always return 0 (success)
+#include <time.h>
+/**
+ * main - Entry Point
+ *
+ *Return: always return 0 (success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*if else statement execute code whether a condition is true or false*/
