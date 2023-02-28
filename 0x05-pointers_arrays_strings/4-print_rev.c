@@ -7,7 +7,7 @@
  * Return: nothing
  */
 void print_rev(char *s)
-{
+{	
 	int i = 0;
 	int len = 0;
 
@@ -17,7 +17,6 @@ void print_rev(char *s)
 	}
 	for (i = len; i >= 0; i--)
 	{
-		putchar(s[i]);
+		printf("%c", s[i]);
 	}
-	putchar('\n');
 }
