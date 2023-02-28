@@ -22,8 +22,8 @@ void puts_half(char *str)
 		i++;
 	}
 	printf("\n");
-	if (len % 2 = !0)
+	if (len % 2 != 0)
 	{
-		printf("%c\n", lastN)
+		printf("%c\n", lastN);
 	}
 }
