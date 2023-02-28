@@ -6,15 +6,17 @@
 void puts2(char *str)
 {
 	int len = 0;
+	int i = 0;
 
 	while (str[len] != '\0')
 	{
 		len++;
 	}
 
-	for (int i = 0; i < len; i += 1)
+	while (i < len)
 	{
-		printf("%c", str[i]);
+		printf("%c\n", str[i]);
+		i = i + 2;
 	}
 	printf("\n");
 }
