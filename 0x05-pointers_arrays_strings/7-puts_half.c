@@ -9,7 +9,6 @@ void puts_half(char *str)
 {
 	int len;
 	int i;
-	char lastN = str % 10;
 
 	while (str[len] != 0)
 	{
@@ -24,6 +23,6 @@ void puts_half(char *str)
 	printf("\n");
 	if (len % 2 != 0)
 	{
-		printf("%c\n", lastN);
+		printf("%c\n", str[len / 2]);
 	}
 }
