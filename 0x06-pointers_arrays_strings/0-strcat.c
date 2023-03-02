@@ -7,7 +7,7 @@
  *
  * Retur: dest
  */
-int char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int len = 0;
 	int i = 0;
@@ -16,7 +16,7 @@ int char *_strcat(char *dest, char *src)
 	{
 		len++;
 	}
-	while (src[i] != '\0')
+	while(src[i] != '\0')
 	{
 		dest[len] = src[i];
 		len++;
