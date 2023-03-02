@@ -5,7 +5,7 @@
  * @dest: point to the destination
  * @src: point to the source
  *
- * Retur: dest
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
