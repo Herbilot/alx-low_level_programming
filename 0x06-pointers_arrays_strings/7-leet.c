@@ -9,14 +9,9 @@ char *leet(char *s)
 {
 	int i = 0;
 	int j;
-	int len = 0;
 	char l337[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-	for (i = 0; i < len; i++)
+	while (s[i])
 	{
 		for (j = 0; j <= 7; j++)
 		{
@@ -25,6 +20,7 @@ char *leet(char *s)
 				s[i] = j + '0';
 			}
 		}
+		i++;
 	}
 
 	return (s);
