@@ -14,7 +14,7 @@ void _puts_recursion(char *s)
 
 	while (s[len] != '\0')
 	{
-		len++
+		len++;
 	}
 	for (int i = 0; i < len; i++)
 	{
